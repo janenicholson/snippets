@@ -1,0 +1,25 @@
+# intellij
+.idea
+*.iml
+
+# eclipse
+.project
+.classpath
+.settings/
+.temp*
+
+# maven
+**/target
+
+*.swp
+*.swo
+*.swn
+dependency-reduced-pom.xml
+
+# terraform
+**/.terraform.lock.hcl
+**/.terragrunt-cache
+
+# ignore DS_Store files - macOS filesystem specific metadata about its containing folder
+.DS_Store
+.worktrees/
